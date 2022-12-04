@@ -5,6 +5,8 @@
 body {
     background-color: rgb(44, 41, 38);
     font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -118,11 +120,12 @@ main ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     list-style: none;
+    padding: 0 5%;
     gap: 2%;
-    margin: 0 7% 0 1%;
 }
 
 main li {
+    margin-right: 0;
     text-align: center;
     background-color: rgb(230, 209, 184);
     border-radius: 6px;
